@@ -27,7 +27,7 @@ function BoRayMaa(){
 function BeteverePlay(keycode){
 	if (keycode == 96){
 		var leMu = new Audio('dance.wav').play();
-		
+		leMu.autoplay = true;
 	}
 }
 
